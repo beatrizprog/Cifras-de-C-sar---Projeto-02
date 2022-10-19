@@ -12,9 +12,7 @@
     margin: 0px;
     border: 0px;
     box-sizing: border-box;
-  }
-main {
-   padding-top: 30px;
+
 }
   body {
     background-image: url(http://paxprofundis.org/livros/simbolcript/cobi.gif);
@@ -48,7 +46,7 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 400px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     flex-direction: column;
     padding: 20px;
     margin: 500px;
