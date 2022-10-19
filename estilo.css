@@ -13,7 +13,9 @@
     border: 0px;
     box-sizing: border-box;
   }
-  
+main {
+   padding-top: 30px;
+}
   body {
     background-image: url(http://paxprofundis.org/livros/simbolcript/cobi.gif);
     background-size: cover;
