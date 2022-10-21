@@ -36,14 +36,17 @@
           </div>
         </div>
         <div class="codedecode">
-          <input id="radiocodificar" type="radio" name="code" value="codificar" />
-          <label>Codificar</label>
-          <input id="radiodecodificar" type="radio" name="code" value="decodificar" />
-          <label>Decodificar</label>
+          <input id="radiocodificar" type="radio" name="code" value="codificar" oninput="codificar()"/>
+          <label for="radiocodificar">Codificar</label>
+          <input id="radiodecodificar" type="radio" name="code" value="decodificar" oninput="decodificar()"/>
+          <label for="radiodecodificar">Decodificar</label>
         </div>
         <div class="criptografar">
-          <button id="criptografarbtn" onclick="criptografia()">
+          <button id="criptografarbtn" onclick="criptografia()" >
             Codificar Mensagem
+          </button>
+          <button id="decriptografarbtn" onclick="decriptografia()" style="display:none">
+            Decodificar Mensagem
           </button>
         </div>
         <div>
