@@ -19,6 +19,15 @@ radioDecodificar.addEventListener('change', function () {
   criptografarBtn.innerHTML = 'Decodificar Mensagem'
 })
 
+function codificar () {
+  document.getElementById("criptografarbtn").style.display = "inline"
+  document.getElementById("decriptografarbtn").style.display = "none"
+}
+function decodificar () {
+  document.getElementById("criptografarbtn").style.display = "none"
+  document.getElementById("decriptografarbtn").style.display = "inline"
+}
+
 function criptografia() {
   const text = document.getElementById('textToDecode')
   const method = document.getElementById('selection')
