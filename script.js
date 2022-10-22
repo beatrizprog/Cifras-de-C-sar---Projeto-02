@@ -44,7 +44,7 @@ function toCesar(text) {
   if (code === 'decodificar') {
     steps = steps * -1
   }
-  const alfabeto = 'abcdefghijklmnopqrstuwxyz'.split('')
+  const alfabeto = 'abcdefghijklmnopqrstuvwxyz'.split('')
   //linha 34 : transformando alfabeto em array
   const textoOriginal = text.split('')
   let textoCriptografado = ''
